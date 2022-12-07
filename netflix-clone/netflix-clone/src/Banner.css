@@ -1,0 +1,40 @@
+.banner{
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+.banner_details{
+    height:190px ;
+    width: 50%;
+    color: aliceblue;
+    position: absolute;
+    margin: 0 0 0 30px;
+    padding-top: 180px;
+    
+}
+
+.banner__title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+.banner_desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.banner_button{
+    cursor:pointer ;
+    padding: 0.5rem 2rem;
+    margin-right: 1.2rem;
+    color: #fff;
+    border: none;
+    background-color: rgba(51,51,51,0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner_button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}

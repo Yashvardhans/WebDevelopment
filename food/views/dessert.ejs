@@ -1,0 +1,29 @@
+<%- include("header"); -%>
+
+<div class="row">
+<% for( let i = 0; i < desserts.length; i++ ) { %>
+   <div class="dessert-info col-lg-4">
+    <img src="images/sweetDish/<%= desserts[i].name %>.jpg" alt="">
+    <div class="dess-name"> <%= desserts[i].title %></div>
+   </div> 
+
+<% } %>
+<% for( let i = 0; i < desserts.length; i++ ) { %>
+   <div class="dessert-info col-lg-4">
+    <img src="images/sweetDish/<%= desserts[i].name %>.jpg" alt="">
+    <div class="dess-name"> <%= desserts[i].title %></div>
+   </div> 
+
+<% } %>
+<% for( let i = 0; i < desserts.length; i++ ) { %>
+   <div class="dessert-info col-lg-4">
+    <img src="images/sweetDish/<%= desserts[i].name %>.jpg" alt="">
+    <div class="dess-name"> <%= desserts[i].title %></div>
+   </div> 
+
+<% } %>
+</div>
+
+
+
+<%- include("footer") -%> 

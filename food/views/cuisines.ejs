@@ -1,0 +1,59 @@
+<%- include("header"); -%>
+
+<div class="cuisine-menu">
+    <div class="c-menu-item">
+        <img src="/images/weightLoss/wlr2.jpg" alt="">
+        <div class="c-m-title">Indian</div>
+    </div>
+</div>
+
+
+
+<div class="cuisines-wrapper row">
+     <div class="cuisine-title">Indian</div>
+        <% for( let i = 0; i < cuisines.length; i++ ) { %>
+            <div class="cuisine-item col-lg-4">
+                
+                <img src="/images/weightLoss/<%= cuisines[i].cuisineimg %>.jpg" alt="">
+                
+                <div class="cuisine-name"><%= cuisines[i].cuisinename %></div>
+            </div>
+        
+        <% } %>
+        <div class="cuisine-title">American</div>
+        <% for( let i = 0; i < cuisines.length; i++ ) { %>
+            <div class="cuisine-item col-lg-4">
+                
+                <img src="/images/weightLoss/<%= cuisines[i].cuisineimg %>.jpg" alt="">
+                
+                <div class="cuisine-name"><%= cuisines[i].cuisinename %></div>
+            </div>
+        
+        <% } %>
+        <div class="cuisine-title">Chinese</div>
+        <% for( let i = 0; i < cuisines.length; i++ ) { %>
+            <div class="cuisine-item col-lg-4">
+                
+                <img src="/images/weightLoss/<%= cuisines[i].cuisineimg %>.jpg" alt="">
+                
+                <div class="cuisine-name"><%= cuisines[i].cuisinename %></div>
+            </div>
+        
+        <% } %>
+        <div class="cuisine-title">Mexican</div>
+        <% for( let i = 0; i < cuisines.length; i++ ) { %>
+            <div class="cuisine-item col-lg-4">
+                
+                <img src="/images/weightLoss/<%= cuisines[i].cuisineimg %>.jpg" alt="">
+                
+                <div class="cuisine-name"><%= cuisines[i].cuisinename %></div>
+            </div>
+        
+        <% } %>
+        
+ </div>
+
+
+
+
+<%- include("footer") -%> 
